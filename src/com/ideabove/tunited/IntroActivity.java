@@ -60,11 +60,11 @@ public class IntroActivity extends Activity implements OnClickListener{
 
 	public void login(){
 		boolean isLoginOn = mNetworkManager.requestLogin();
-		if(isLoginOn){
+		//if(isLoginOn){
 			SystemClock.sleep(1000);
 			Intent mainIntent = new Intent(IntroActivity.this, MainActivity.class);
 			startActivity(mainIntent);
-		}
+		//}
 	}
 }
 

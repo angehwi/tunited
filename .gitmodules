@@ -1,0 +1,3 @@
+[submodule "libs/slideMenu"]
+	path = libs/slideMenu
+	url = https://github.com/jfeinstein10/SlidingMenu.git
